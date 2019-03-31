@@ -1,0 +1,306 @@
+body {
+    background-image:url("./qbkls.png");
+    margin:0;
+    padding:0;
+    height:100%;
+    position: relative;
+}
+
+header {
+    background: #ffffff;
+    width: 100%;
+    height:80px;
+}
+
+section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+    width: 960px;
+    background: #ffffff;
+}
+
+div {
+}
+
+.myname {
+    float:left;
+    background:#4aaaa5;
+    color: white;
+    height: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 200px;
+    text-align: center;
+}
+
+.menu {
+    float: right;
+    color: gray;
+    height: 80px;
+    margin-right: 14%;
+    width: 240px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.link1 {
+    float: left;
+    width: 30%;
+    height: 80px;
+    color:#777777;
+}
+
+.link2 {
+    float: left;
+    width: 40%;
+    height: 80px;
+    color:#777777;
+}
+
+.link3 {
+  float: left;  
+  width: 30%;
+  height: 80px;
+  color:#777777;
+}
+
+a {
+    color: #777777
+}
+
+.aboutme { 
+    color:gray;
+    background: white;
+    width: 960px;
+    height: auto;
+    float: center;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.aboutmetitle {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+img {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    width: 180px;
+}
+
+.imageplustext {
+    position: relative;
+    float: left;
+}
+
+.imagedescription {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 140px;
+    height:40px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 40px;
+}
+
+.portfolio {
+    height: 200px;
+    width: 140px;
+}
+
+.portfoliotext {
+    position: relative;
+}
+
+footer {
+    background:#666666;
+    color: lightgray;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    position:fixed;bottom:0;left:0;right:0;
+}
+
+.footerline {
+    background:#4aaaa5;
+    width: 100%;
+    height:10px;
+    position: absolute;
+    bottom: 40px;
+}
+
+hr \ {color: blue;
+}
+
+h1 {font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.textbox { 
+    margin:5%;
+}
+
+.contact {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+input {
+    width: 98%;
+}
+
+#message {
+    box-sizing: border-box;
+    height: 150px;
+}
+
+.button {
+    background:#4aaaa5;  
+    color: white;
+    text-align: center;  
+}
+
+p1 {
+    font-family: Arial', 'Helvetica' Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+p2 {
+    font-family: Arial', 'Helvetica' Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+p3 {
+    font-family: Arial', 'Helvetica' Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+p4 { 
+    font-family: Arial', 'Helvetica' Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width:980px) and (min-width: 769px) { 
+    body {
+        background-image:url("./qbkls.png");
+    }
+
+    section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+    width: 80%;
+    float: center;
+    background: #ffffff;
+
+    }
+
+    .aboutme { 
+        color:gray;
+        background: white;
+        width:80%;
+        height: 410px;
+        float: center;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width: 641px) {    
+    body {
+        background-image:url("./qbkls.png");
+    }
+
+    section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+    width: 80%;
+    float: center;
+    background: #ffffff;
+    }
+
+    .aboutme { 
+        color:gray;
+        background: white;
+        width:80%;
+        height: 410px;
+        float: center;
+    }
+
+}
+
+@media screen and (max-width:640px){ 
+    body {
+        background-image:url("./qbkls.png");
+    }
+
+    header {
+        background: #ffffff;
+        width: 100%;
+        height:80px;
+        float: static;
+    }
+    
+    section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+    width: 80%;
+    float: center;
+    background: #ffffff;}
+
+    .aboutme { 
+        color:gray;
+        background: white;
+        width:80%;
+        height: 410px;
+        float: center;
+    }
+}
